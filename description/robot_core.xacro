@@ -58,8 +58,8 @@
         <visual>
             <origin xyz="0.08 0 0"/>
             <geometry>
-                <mesh filename="file://$(find test_bot)/meshes/Chassis.stl" scale="0.001 0.001 0.001" />
-                <!-- <mesh filename="$(find test_bot)/stl/Chassis.stl" scale="0.001 0.001 0.001" /> -->
+                <mesh filename="file://$(find slam_bot)/meshes/Chassis.stl" scale="0.001 0.001 0.001" />
+                <!-- <mesh filename="$(find slam_bot)/stl/Chassis.stl" scale="0.001 0.001 0.001" /> -->
             </geometry>
             <material name="black"/>
         </visual>
